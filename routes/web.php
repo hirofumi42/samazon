@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 
 Route::resource('products', 'ProductController');
+Route::get('/{id}', 'ProductController@show');
